@@ -6,5 +6,9 @@ function login() {
     return;
   }
 
+  if (id === "admin") {
+    window.location.href = "../Tela2/index.html";
+  }
+
   alert("Login realizado: " + id);
 }
