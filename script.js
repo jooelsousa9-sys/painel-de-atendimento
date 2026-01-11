@@ -6,5 +6,5 @@ function login() {
     return;
   }
 
-  alert("Login simulado para ID: " + id);
+  alert("Login realizado: " + id);
 }
