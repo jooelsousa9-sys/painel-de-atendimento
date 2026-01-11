@@ -1,10 +1,9 @@
+let colaboradorId = "";
+
 function login() {
   const id = document.getElementById("colaboradorId").value;
 
-  let colaborador = {001: "Ana Silva"}, {002: "Bruno Souza"}, {003: "Carla Dias"};
-
-  if (id === "colaboradorId") {
-    window.location.href = "../Tela3/index.html";
+  if (!id) {
     alert("Informe o ID do colaborador");
     return;
   }
